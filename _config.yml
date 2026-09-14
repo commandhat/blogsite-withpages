@@ -1,8 +1,8 @@
 title: My Personal Site
 description: My personal website
 
-url: "commandhat.github.io"
-baseurl: "/blogsite-withpages"
+url: "commandhat.com"
+baseurl: ""
 
 markdown: kramdown
 
