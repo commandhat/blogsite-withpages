@@ -1,0 +1,35 @@
+---
+---
+{% comment %} Defines the complete HTML document structure {% endcomment %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+<div class="page">
+
+    <header class="site-header">
+        {% include header.html %}
+    </header>
+
+    <main class="main">
+        <aside class="sidebar">
+            {% include sidebar.html %}
+        </aside>
+
+        <article class="content">
+            {{ content }}
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        {% include footer.html %}
+    </footer>
+
+</div>
+</body>
+</html>

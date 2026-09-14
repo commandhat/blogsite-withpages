@@ -1,0 +1,49 @@
+title: My Personal Site
+description: My personal website
+
+url: ""
+baseurl: ""
+
+markdown: kramdown
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
+
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+  roblox:
+    output: true
+    permalink: /roblox/:path/
+
+  about:
+    output: true
+    permalink: /about/:path/
+
+plugins:
+  - jekyll-feed
+  - jekyll-archives-v2
+  - jekyll-webp
+  - jekyll-youtube
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jemoji
+
+feed:
+  collections:
+    blog:
+      path: "/blog/feed.xml"
+    roblox:
+      path: "/roblox/feed.xml"
+
+jekyll-archives:
+  roblox:
+    enabled:
+      - tags
+    layouts:
+      tags: roblox-tag
+    permalinks:
+      tags: /roblox/tags/:name/

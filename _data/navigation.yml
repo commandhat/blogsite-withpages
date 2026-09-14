@@ -1,0 +1,62 @@
+main:
+  title: Navigation
+  links:
+    - title: Home
+      url: /
+
+    - title: Blog
+      url: /blog/
+
+    - title: Projects
+      url: /projects/
+
+    - title: Roblox
+      url: /roblox/
+
+    - title: About
+      url: /about/
+
+blog:
+  title: Blog
+  links:
+    - title: Latest Posts
+      url: /blog/
+
+projects:
+  title: Projects
+  links:
+    - title: Wiki
+      url: /wiki/
+
+    - title: Free
+      heading: true
+
+    - title: Shelfbound
+      url: /projects/shelfbound/
+
+    - title: Paid
+      heading: true
+
+roblox:
+  title: Roblox
+  links:
+    - title: Latest
+      url: /roblox/
+
+    - title: Tags
+      url: /roblox/tags/
+
+about:
+  title: About
+  links:
+    - title: Me
+      url: /about/me/
+
+    - title: Website
+      url: /about/website/
+
+    - title: Notices
+      url: /about/notices/
+
+    - title: Where to Find Me
+      url: /about/where-to-find-me/

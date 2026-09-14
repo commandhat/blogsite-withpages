@@ -1,0 +1,476 @@
+/* ##### BASE ##### */
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #17111a;
+    color: #cac5cf;
+}
+
+.page {
+    width: min(1200px, calc(100% - 40px));
+    height: calc(100vh - 40px);
+    margin: 20px auto;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    background-color: #16091e;
+}
+
+.site-header {
+    flex: 0 0 40px;
+
+    box-sizing: border-box;
+
+    background-color: #2b1443;
+    color: #cac5cf;
+
+    padding: 0 20px;
+}
+
+.site-header nav {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.site-header nav a {
+    color: #cac5cf;
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    color: #9b40ff;
+    text-decoration: none;
+}
+
+.site-footer {
+    flex: 0 0 60px;
+
+    box-sizing: border-box;
+
+    background-color: #0d1013;
+    color: #cac5cf;
+
+    padding: 0px 10px;
+}
+
+
+.main {
+    flex: 1 1 auto;
+
+    min-height: 0;
+
+    display: flex;
+
+    overflow: hidden;
+
+    background-color: #16091e;
+}
+
+/* ##### SIDEBAR ##### */
+
+.sidebar {
+    flex: 0 0 160px;
+
+    box-sizing: border-box;
+
+    min-width: 160px;
+    max-width: 160px;
+
+    overflow-y: auto;
+
+    background-color: #24103a;
+
+    padding: 20px 0;
+}
+
+.sidebar-heading {
+    padding: 12px 12px 4px;
+    color: #cac5cf;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.sidebar-nav h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+
+    margin-top: 15px;
+
+    border-bottom: 1px solid #2b1443;
+
+    padding: 0 12px 5px;
+
+    color: #cac5cf;
+}
+
+.sidebar-nav ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 10px 0;
+}
+
+.sidebar-nav li a {
+    display: block;
+
+    padding: 8px 12px;
+
+    text-decoration: none;
+
+    color: #cac5cf;
+
+    transition:
+        background-color 0.2s,
+        color 0.2s;
+
+    cursor: pointer;
+}
+
+.sidebar-nav li a:hover {
+    background-color: #2b1443;
+    color: #9b40ff;
+}
+
+.sidebar-nav .is-active a {
+    background-color: #2b1443;
+    color: #9b40ff;
+    font-weight: bold;
+    border-left: 3px solid #9b40ff;
+}
+
+.sidebar-heading {
+    padding: 12px 12px 4px;
+    color: #cac5cf;
+    font-size: 0.85em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.content {
+    flex: 1 1 auto;
+
+    min-width: 0;
+
+    overflow-y: auto;
+
+    box-sizing: border-box;
+
+    padding: 40px 60px;
+
+    background-color: #16091e;
+}
+
+/* #### TAG STYLING ##### */
+
+h1,
+h2,
+h3,
+h4 {
+    color: #cac5cf;
+
+    border-bottom: 1px solid rgba(202, 197, 207, 0.1);
+
+    padding-bottom: 5px;
+
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p,
+li {
+    line-height: 1.6;
+
+    margin-bottom: 1em;
+}
+
+
+a {
+    color: #9b40ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8000ff;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #9b40ff;
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+
+    display: block;
+
+    margin: 20px auto;
+}
+
+pre {
+    background-color: #0d1013;
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    overflow-x: auto;
+
+    margin: 20px 0;
+}
+
+code {
+    font-family: monospace;
+
+    color: #cac5cf;
+}
+
+blockquote {
+    border-left: 4px solid #9b40ff;
+
+    padding-left: 15px;
+
+    margin: 20px 0;
+
+    font-style: italic;
+
+    color: #cac5cf;
+}
+
+.project-meta,
+.entry-metadata {
+    background-color: rgba(43, 20, 67, 0.35);
+
+    padding: 15px;
+
+    border-radius: 5px;
+
+    margin-bottom: 20px;
+}
+
+.article-list {
+    margin-top: 30px;
+}
+
+.article-preview {
+    margin: 0 0 30px;
+
+    padding: 20px;
+
+    background-color: rgba(43, 20, 67, 0.35);
+
+    border: 1px solid rgba(202, 197, 207, 0.08);
+
+    border-radius: 6px;
+}
+
+.article-preview h3 {
+    margin-top: 0;
+
+    border-bottom: 0;
+
+    padding-bottom: 0;
+}
+
+.article-preview p {
+    margin-bottom: 10px;
+}
+
+.article-preview small {
+    color: #cac5cf;
+}
+
+.comments {
+    margin-top: 40px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #2b1443;
+
+    color: #cac5cf;
+}
+
+/* ##### MOBILE LAYOUT ##### */
+
+@media (max-width: 768px) {
+    .page {
+        width: 100%;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .site-header {
+        flex: 0 0 40px;
+    }
+
+    .sidebar {
+        flex: 0 0 30%;
+        width: 30%;
+        max-width: 30%;
+        min-width: 0;
+        box-sizing: border-box;
+
+        padding: 15px 10px;
+
+        border-bottom: none;
+        border-right: 1px solid #2b1443;
+    }
+
+    .content {
+        flex: 1 1 70%;
+        width: 70%;
+        min-width: 0;
+        max-width: none;
+
+        padding: 20px;
+    }
+}
+
+/* #### ROBLOX REVIEW CARD RULES ##### */
+
+.roblox-review-card {
+    width: 100%;
+    margin: 0 0 30px;
+
+    border-collapse: collapse;
+
+    background-color: rgba(43, 20, 67, 0.35);
+
+    border: 1px solid rgba(202, 197, 207, 0.08);
+
+    border-radius: 6px;
+
+    overflow: hidden;
+}
+
+.roblox-review-card td {
+    padding: 16px;
+}
+
+.roblox-card-thumbnail {
+    width: 180px;
+    vertical-align: middle;
+
+    border-right: 1px solid rgba(202, 197, 207, 0.08);
+}
+
+.roblox-card-thumbnail img {
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+
+    margin: 0;
+}
+
+.roblox-card-game {
+    vertical-align: top;
+}
+
+.roblox-card-heading {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.roblox-card-heading h3 {
+    margin: 0;
+    border: 0;
+}
+
+.roblox-card-link {
+    white-space: nowrap;
+}
+
+.roblox-card-review td {
+    border-top: 1px solid rgba(202, 197, 207, 0.08);
+}
+
+.roblox-card-review p {
+    margin: 0;
+}
+
+.roblox-card-meta td {
+    border-top: 1px solid rgba(202, 197, 207, 0.08);
+
+    background-color: rgba(43, 20, 67, 0.25);
+
+    font-size: 0.9em;
+}
+
+.roblox-card-meta td:not(:last-child) {
+    border-right: 1px solid rgba(202, 197, 207, 0.08);
+}
+
+.roblox-card-meta strong {
+    color: #9b40ff;
+
+/* RSS icon rules - please kill me this took way too long*/
+
+.sidebar-nav h2 img {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    margin: 0 6px 0 0;
+}
+
+/* sidebar for blog uuuuuugh can I stop webdevving already please */
+
+.sidebar-archive h3,
+.sidebar-archive h4 {
+    border-bottom: 1px solid #2b1443;
+    padding: 0 12px 5px;
+    margin-top: 20px;
+}
+
+.sidebar-archive h3 {
+    font-size: 0.9em;
+}
+
+.sidebar-archive h4 {
+    font-size: 0.85em;
+    margin-top: 15px;
+}
+
+.sidebar-archive ul {
+    margin-top: 5px;
+}
+
+.sidebar-archive li a {
+    padding: 5px 12px;
+    font-size: 0.9em;
+}
+
+.sidebar-nav h2 img {
+    width: 16px;
+    height: 16px;
+    display: inline;
+    margin: 0 6px 0 0;
+}

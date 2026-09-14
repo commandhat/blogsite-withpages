@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article>
+<header class="entry-metadata">
+<h1>Roblox Reviews: {{ page.title }}</h1>
+</header>
+
+<div class="content-body">
+
+{% if page.documents %}
+
+{% for review in page.documents %}
+
+<article class="blogroll-entry">
+
+<h2>
+<a href="{{ review.url | relative_url }}">
+{{ review.game_title }}
+</a>
+</h2>
+
+{% if review.date %}
+<p class="blogroll-meta">
+{{ review.date | date: "%B %-d, %Y" }}
+</p>
+{% endif %}
+
+{% if review.review_description %}
+<p>
+{{ review.review_description }}
+</p>
+{% endif %}
+
+<p>
+<a href="{{ review.url | relative_url }}">Read Review</a>
+</p>
+
+</article>
+
+{% endfor %}
+
+{% else %}
+
+<p>
+There are no Roblox reviews with this tag.
+</p>
+
+{% endif %}
+
+</div>
+</article>
