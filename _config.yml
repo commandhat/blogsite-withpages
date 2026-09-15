@@ -1,7 +1,7 @@
 title: My Personal Site
 description: My personal website
 
-url: "commandhat.com"
+url: "https://commandhat.com"
 baseurl: ""
 
 markdown: kramdown
