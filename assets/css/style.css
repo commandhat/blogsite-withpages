@@ -474,3 +474,16 @@ blockquote {
     display: inline;
     margin: 0 6px 0 0;
 }
+
+/* hopefully the last bit */
+
+.error-page {
+    text-align: center;
+}
+
+.underconstruction-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
