@@ -4,3 +4,9 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# Old local AI-agent instructions - no longer needed since Qwen3 is trash and behaves like it
+AGENTS.md
+
+# TiddlyDesktop rollback history
+wiki/index.html_backup/
