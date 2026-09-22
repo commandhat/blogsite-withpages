@@ -487,3 +487,7 @@ blockquote {
     height: auto;
     margin: 30px auto;
 }
+
+.agent-instructions {
+    display: none;
+}
