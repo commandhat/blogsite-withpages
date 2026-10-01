@@ -4,6 +4,8 @@ title: My Stance On AI
 date: 2026-09-13
 ---
 
+Join me as I was eloquently about my hatred for LLMs.
+
 # You used AI, right?
 
 You may have noticed if you browse [the source repository](https://github.com/commandhat/blogsite-withpages) even a little bit you'll come across an "[agents.md](https://commandhat.com/agents.md)" file. Every single page on the website has an HTML comment in the header of every page that links back to it, and if you use a screen reader you may have heard it say something about "AI Agent Instructions".
