@@ -4,7 +4,7 @@ title: My Stance On AI
 date: 2026-09-13
 ---
 
-Join me as I was eloquently about my hatred for LLMs.
+Join me as I wax eloquently about my hatred for LLMs.
 
 # You used AI, right?
 
