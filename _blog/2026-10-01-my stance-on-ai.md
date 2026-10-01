@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: My Stance On AI
-date: 2026-09-13
+date: 2026-09-28
 ---
 
 Join me as I wax eloquently about my hatred for LLMs.
