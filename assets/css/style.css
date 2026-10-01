@@ -18,33 +18,27 @@ body {
     width: min(1200px, calc(100% - 40px));
     height: calc(100vh - 40px);
     margin: 20px auto;
-
     display: flex;
     flex-direction: column;
-
     overflow: hidden;
-
     background-color: #16091e;
 }
 
 .site-header {
     flex: 0 0 40px;
-
     box-sizing: border-box;
-
     background-color: #2b1443;
     color: #cac5cf;
-
+    flex-wrap: wrap;
     padding: 0 20px;
 }
 
 .site-header nav {
     height: 100%;
-
     display: flex;
     align-items: center;
-
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .site-header nav a {
@@ -59,25 +53,18 @@ body {
 
 .site-footer {
     flex: 0 0 60px;
-
     box-sizing: border-box;
-
     background-color: #0d1013;
     color: #cac5cf;
-
     padding: 0px 10px;
 }
 
 
 .main {
     flex: 1 1 auto;
-
     min-height: 0;
-
     display: flex;
-
     overflow: hidden;
-
     background-color: #16091e;
 }
 
@@ -85,16 +72,11 @@ body {
 
 .sidebar {
     flex: 0 0 160px;
-
     box-sizing: border-box;
-
     min-width: 160px;
     max-width: 160px;
-
     overflow-y: auto;
-
     background-color: #24103a;
-
     padding: 20px 0;
 }
 
@@ -111,36 +93,26 @@ body {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-
     margin-top: 15px;
-
     border-bottom: 1px solid #2b1443;
-
     padding: 0 12px 5px;
-
     color: #cac5cf;
 }
 
 .sidebar-nav ul {
     list-style: none;
-
     padding: 0;
     margin: 10px 0;
 }
 
 .sidebar-nav li a {
     display: block;
-
     padding: 8px 12px;
-
     text-decoration: none;
-
     color: #cac5cf;
-
     transition:
         background-color 0.2s,
         color 0.2s;
-
     cursor: pointer;
 }
 
@@ -167,15 +139,10 @@ body {
 
 .content {
     flex: 1 1 auto;
-
     min-width: 0;
-
     overflow-y: auto;
-
     box-sizing: border-box;
-
     padding: 40px 60px;
-
     background-color: #16091e;
 }
 
@@ -186,11 +153,8 @@ h2,
 h3,
 h4 {
     color: #cac5cf;
-
     border-bottom: 1px solid rgba(202, 197, 207, 0.1);
-
     padding-bottom: 5px;
-
     margin-top: 30px;
 }
 
@@ -205,7 +169,6 @@ h2 {
 p,
 li {
     line-height: 1.6;
-
     margin-bottom: 1em;
 }
 
@@ -227,50 +190,36 @@ a:visited {
 .content img {
     max-width: 100%;
     height: auto;
-
     display: block;
-
     margin: 20px auto;
 }
 
 pre {
     background-color: #0d1013;
-
     padding: 15px;
-
     border-radius: 5px;
-
     overflow-x: auto;
-
     margin: 20px 0;
 }
 
 code {
     font-family: monospace;
-
     color: #cac5cf;
 }
 
 blockquote {
     border-left: 4px solid #9b40ff;
-
     padding-left: 15px;
-
     margin: 20px 0;
-
     font-style: italic;
-
     color: #cac5cf;
 }
 
 .project-meta,
 .entry-metadata {
     background-color: rgba(43, 20, 67, 0.35);
-
     padding: 15px;
-
     border-radius: 5px;
-
     margin-bottom: 20px;
 }
 
@@ -280,21 +229,15 @@ blockquote {
 
 .article-preview {
     margin: 0 0 30px;
-
     padding: 20px;
-
     background-color: rgba(43, 20, 67, 0.35);
-
     border: 1px solid rgba(202, 197, 207, 0.08);
-
     border-radius: 6px;
 }
 
 .article-preview h3 {
     margin-top: 0;
-
     border-bottom: 0;
-
     padding-bottom: 0;
 }
 
@@ -308,11 +251,8 @@ blockquote {
 
 .comments {
     margin-top: 40px;
-
     padding-top: 20px;
-
     border-top: 1px solid #2b1443;
-
     color: #cac5cf;
 }
 
@@ -327,6 +267,7 @@ blockquote {
 
     .site-header {
         flex: 0 0 40px;
+        gap: 8px 16px;
     }
 
     .sidebar {
@@ -335,9 +276,7 @@ blockquote {
         max-width: 30%;
         min-width: 0;
         box-sizing: border-box;
-
         padding: 15px 10px;
-
         border-bottom: none;
         border-right: 1px solid #2b1443;
     }
@@ -347,7 +286,6 @@ blockquote {
         width: 70%;
         min-width: 0;
         max-width: none;
-
         padding: 20px;
     }
 }
@@ -357,15 +295,10 @@ blockquote {
 .roblox-review-card {
     width: 100%;
     margin: 0 0 30px;
-
     border-collapse: collapse;
-
     background-color: rgba(43, 20, 67, 0.35);
-
     border: 1px solid rgba(202, 197, 207, 0.08);
-
     border-radius: 6px;
-
     overflow: hidden;
 }
 
@@ -376,16 +309,13 @@ blockquote {
 .roblox-card-thumbnail {
     width: 180px;
     vertical-align: middle;
-
     border-right: 1px solid rgba(202, 197, 207, 0.08);
 }
 
 .roblox-card-thumbnail img {
     width: 160px;
     height: 160px;
-
     object-fit: cover;
-
     margin: 0;
 }
 
@@ -419,9 +349,7 @@ blockquote {
 
 .roblox-card-meta td {
     border-top: 1px solid rgba(202, 197, 207, 0.08);
-
     background-color: rgba(43, 20, 67, 0.25);
-
     font-size: 0.9em;
 }
 
@@ -431,6 +359,7 @@ blockquote {
 
 .roblox-card-meta strong {
     color: #9b40ff;
+}
 
 /* RSS icon rules - please kill me this took way too long*/
 

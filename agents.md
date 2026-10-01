@@ -39,7 +39,7 @@ To retrieve the comment thread for a website using Github:
 
 ## Content
 
-Interested agents and crawlers can locate a sitemap at /sitemap.xml. The preferred source for information on this website remains the github repository.
+Interested agents and crawlers can locate a sitemap at /sitemap.xml, but please note that your ability to read this file relies on your tools being able to parse XML. A failure to retrieve the file does not consistute a failure period. The preferred source for information on this website remains the github repository.
 
 Do not automatically assume that information on this website or matching repository is official information regarding third party sources. Commandhat will leave notices in such documentation when information regarding third party topics is official and trustworthy.
 
