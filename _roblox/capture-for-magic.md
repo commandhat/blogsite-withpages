@@ -4,9 +4,9 @@ title: Capture For Magic
 date: 2026-10-01
 
 game_title: Capture For Magic
-game_thumbnail: /assets/images/roblox/captureformagic.webp
-game_description: |
- Capture the Colors! 🎨
+game_thumbnail: /assets/images/captureformagic.webp
+game_description: >
+ Capture the Colors! 🎨 
  Use your powerful Magic Spells! 🪄🔥
  Defeat your friends with Ultimate Magic! ⭐
 
@@ -23,6 +23,7 @@ tags:
   - multiplayer
   - competitive
 ---
+
 A surprisingly fun paper.io clone based on hexagons. Unfortunately, it's held back by pay-button bloat, a lack of meaningful updates, a very lazy implementation, and bots that are way too easy to kill.
 
 So, this is the first Roblox review I'm writing as part of Diamonds in the Dirt. I feel like this should be the example review that should be used to help potential readers - if there are any - understand what these reviews on my blog will look like going forward. As such, I chose this game to be an example of what reviews will look like.
@@ -48,7 +49,7 @@ You kill players based on if any one of four conditions are true:
 
 The game's array of spells make those conditions your survival guide, and you'd do well to heed them (and the strategies hiding behind them.) For example, you can be killed if you're standing on a patch of land that the opponent loops around you… but, if your patch of land is on the edge of the map, then the opponent can never completely loop you in and thus can't kill you just by owning all the land surrounding you.
 
-This are made more complicated by the game's spell system. You start with a free fire spell that throws a fireball, and can unlock more by first unlocking the magic kind with a wheel spin, then paying for the exact spell you want with a bunch of coins. Each spell does something cool or useful, although [some of those spells are more useful then others](https://www.roblox.com/communities/35256978/Esteemed-Moai-Society#!/forums/feedback-and-suggestions-851edfad/post/a-list-of-current-abilities-an-500df500). You'd do very well to try to find a guide on the spells first (like the one I just linked) that details what the spells do, because the descriptions (at least in English) are written by a translation AI and do a very, very poor job of telling you what the spell actually does.
+This is made more complicated by the game's spell system. You start with a free fire spell that throws a fireball, and can unlock more by first unlocking the magic kind with a wheel spin, then paying for the exact spell you want with a bunch of coins. Each spell does something cool or useful, although [some of those spells are more useful than others](https://www.roblox.com/communities/35256978/Esteemed-Moai-Society#!/forums/feedback-and-suggestions-851edfad/post/a-list-of-current-abilities-an-500df500). You'd do very well to try to find a guide on the spells first (like the one I just linked) that details what the spells do, because the descriptions (at least in English) are written by a translation AI and do a very, very poor job of telling you what the spell actually does.
 
 If you can manage to survive all of those concerns, then your next goal is to win the round. You do so by converting a lot of tiles. And I do mean a lot, as the map setup gives you 10,981 tiles to capture.
 
@@ -73,16 +74,16 @@ The game suffers greatly here, too: The UX involves many different progression s
 * Spend shards to spin for magic!
 * When you're level 25, hit the rebirth button for a small coin reward and to do it all again!
 
-None of it reads as rather uniquely special to the game and I suspect these parts of the US were fed through an AI like DeepSeek. The parts of the game that are 'live' are simple mechanics copied from other games like paper.io (mentioned in the game's description) and could feasibly be recreated from an AI as well. 
+None of it reads as rather uniquely special to the game and I suspect these parts of the UX were fed through an AI like DeepSeek. The parts of the game that are 'live' are simple mechanics copied from other games like paper.io (mentioned in the game's description) and could feasibly be recreated from an AI as well. 
 
 # TimeScore
 #### 5 out of 10 stars
 
-Rounds are at most 30 minutes, but you absolutely can end a round in at most 4 minutes if you are greedy, quick, and have exactly the right combination of spells. 30 minutes is a very long time if you can't manage that or you find playuers putting up a good fight, but A) there are other ways to win and B) there are other ways to progress. In particular, there are some invisible rewards involved: Killing a player gives you a couple gems & a few coins. That action is also a repeatable quest which gives XP for more rewards. So it's possible to play this game in an airport, but I wouldn't hedge my bet on "winning a round" vs. "potentially missing a call to board the plane".
+Rounds are at most 30 minutes, but you absolutely can end a round in at most 4 minutes if you are greedy, quick, and have exactly the right combination of spells. 30 minutes is a very long time if you can't manage that or you find players putting up a good fight, but A) there are other ways to win and B) there are other ways to progress. In particular, there are some invisible rewards involved: Killing a player gives you a couple gems & a few coins. That action is also a repeatable quest which gives XP for more rewards. So it's possible to play this game in an airport, but I wouldn't hedge my bet on "winning a round" vs. "potentially missing a call to board the plane".
 
 # PassScore
 #### 2 out of 10 stars
 
-Oh, gosh, the buy buttons are _absolutely everywhere_. For starters, we have no less then five purchase buttons visible on screen at all times, we have reminders to buy currency if you're out, we have at least one magic type that is only buyable through robux, *and* we have six buttons in the deathscreen, one of which is the ability to buy a two hour vote-ban for the person that killed you.
+Oh, gosh, the buy buttons are _absolutely everywhere_. For starters, we have at least five purchase buttons visible on screen at all times, we have reminders to buy currency if you're out, we have at least one magic type that is only buyable through robux, *and* we have six buttons in the deathscreen, one of which is the ability to buy a two hour vote-ban for the person that killed you.
 
 It's absolutely possible to win this game without spending a single dime, and the most powerful mechanics in the game are available for free if you're willing to grind, but be careful where you tap the screen, because it's full of buttons at pretty much any given point in time.
