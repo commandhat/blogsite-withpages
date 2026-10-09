@@ -9,3 +9,8 @@ The site is currently being hosted via [Github Pages](https://docs.github.com/en
 The domain is registered via [Northwest Registered Agent's free domain system](https://www.northwestregisteredagent.com/domains), but will eventually transfer to [Porkbun](https://porkbun.com/).
 
 The content inside the website is static pages rendered via Markdown, which is essentially free thanks to Jekyll; you might want to give it a try, too. I've heard Astro is good, but my personal preference is Jekyll since it's a pre-built Ruby package with very few dependencies.
+
+<div id='koring'>
+    <script type="text/javascript" src="https://ottr.uk/koring/onionring-variables.js"></script>
+    <script type="text/javascript" src="https://ottr.uk/koring/onionring-widget.js"></script>
+</div>
