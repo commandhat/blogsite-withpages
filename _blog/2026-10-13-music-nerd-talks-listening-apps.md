@@ -40,7 +40,7 @@ For a while, VLC didn't even *have a dark theme!* The following eyesore is what 
 
 Thankfully, with the release of 3.0.22 they fixed this and now you can go into the options to force a darker theme that won't destroy your corneas at three in the morning. It only took them *[eighteen years](https://github.com/pratikpatel8982/vlc-dark)* to finish the feature request, a world record for them! It's not like you can take advantage of the Qt skinning engine you're already using to implement a native dark theme, right? … right?
 
-<img src=/assets/img/b/music-nerd-talk/vlc18years.png alt="VLC's Advanced Preferences, showing where the dark mode checkbox is.">
+<img src="/assets/img/b/music-nerd-talk/vlc18years.png" alt="VLC's Advanced Preferences, showing where the dark mode checkbox is.">
 *It took them EIGHTEEN YEARS to figure out how to tell Qt to put dark colors in front of a light colorset???*
 
 I'm sure you can feel the resentment coming through the above edited screenshot.
