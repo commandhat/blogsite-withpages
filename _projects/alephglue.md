@@ -6,7 +6,7 @@ status: Released
 ---
 <p>Aleph Glue is a Fooyin layout centered around making use of an entire screen, communicating useful information without wasting screen space.</p>
 
-<img src="/assets/img/p/alephglue.png">
+<img src="/assets/img/p/alephglue/alephglue.png">
 #### Description
 <p>The layout has information placed strategically around the player in order to keep it useful and out of the way; it's designed to be used as a full-screen player, but with some effort spent in resizing (and possible removing the Album header if you wish to use playlists as individual albums and scrobble between them), it works well windowed as well.</p>
 #### Brief tour
