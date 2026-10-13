@@ -10,20 +10,21 @@ Fooyin is a customizable music player that doesn't have an interface. It's great
 
 At least, not in the typical way - if you choose to not start with an interface at all during the initial setup, this rather ominous blank space is what greets you when you finish going through the rest of the library setup screens:
 
-![Fooyin fresh after an install, without a layout loaded. No buttons, just some dropdowns at the top.](../assets/img/b/music-nerd-talk/fooyinblank.png "Fooyin fresh after an install, without a layout loaded. No buttons, just some dropdowns at the top.")
+<img src="/assets/img/b/music-nerd-talk/fooyinblank.png" alt="Fooyin fresh after an install, without a layout loaded. No buttons, just some dropdowns at the top.">
 *Rather lackluster, isn't it? So much blank space, and not a play button in sight...*
 
 Part of that is because fooyin comes with several default gadget layouts to help you get started setting up and listening to your music. For instance, the following layout is named "Obsidian", and is supposed to be focused on your music library, based on the Apple Music player circa 2019. But as you'll see, that doesn't appear to be the case for people with small window real-estate.
 
-![Fooyin with the 'Obsidian' layout. The track list is awkwardly squished down the middle like a hotdog.](../assets/img/b/music-nerd-talk/fooyinobsidian.png "Fooyin with the 'Obsidian' layout. The track list is awkwardly squished down the middle like a hotdog.")
+<img src="/assets/img/b/music-nerd-talk/fooyinobsidian.png" alt="Fooyin with the 'Obsidian' layout. The track list is awkwardly squished down the middle like a hotdog.">
 *OK, now we have basic player controls, but why is the track list so squished? Why is a third of the window dedicated to album art? A whole lot of "why" with this setup...*
 
 We can fix it a little by trying to abandon the "new modern music player" look, but even in the default "Simple" layout there appears to be more dedication to the album art then to making things maintainable!
-![Fooyin running with the 'simple' Layout. The upper fourth of the screen is half empty space and half weirdly aligned UI controls.](../assets/img/b/music-nerd-talk/fooyinsimple.png "Fooyin running with the 'simple' Layout. The upper fourth of the screen is half empty space and half weirdly aligned UI controls.")
+
+<img src="/assets/img/b/music-nerd-talk/fooyinsimple.png" alt="Fooyin running with the 'simple' Layout. The upper fourth of the screen is half empty space and half weirdly aligned UI controls.">
 *That's a little better, but now the player controls are on top. And they take up almost a fourth of the window! And what if had a lot of albums?!*
 
 I've tried to fix this by [creating my own layout with all the pretty gizmos and widgets](https://commandhat.com/projects/alephglue/), but this still demonstrates the problem with apps similar to fooyin: For an engineer, building your own music player is a dream. For everyone else, good luck with the struggle!
-![Fooyin running with my custom 'Aleph Glue' layout. It's... very, very dense, but any individual function is two clicks away.](../assets/img/b/music-nerd-talk/fooyinalephglue.png "Fooyin running with my custom 'Aleph Glue' layout. It's... very, very dense, but any individual function is two clicks away.")
+<img src="/assets/img/b/music-nerd-talk/fooyinalephglue.png" alt="Fooyin running with my custom 'Aleph Glue' layout. It's... very, very dense, but any individual function is two clicks away.">
 *Holy information density, batman! At least I can reach everything I need on this screen… I think.*
 
 I'm sure there's a few things lacking from it, too. Being a digital music nerd, I've always preferred pretty visuals, so I never prioritized building the album art into the screen. Why do you need to be reminded which album you're listening to when a few words can serve the same purpose? I mean, if you have two albums, one of the Beatles and then someone trying to copy The Beatles, *maybe* the album art would help, but seeing "Ripoff Beatles" as the current album vs. "The Beatles" would be pretty definitive and convey the same information in less time, while also taking less screen space.
@@ -34,12 +35,12 @@ And yes, I'm aware there's a Mac OS 'Command button' icon next to the volume. Th
 VLC has a few of the functions I desire that make it occasionally helpful. But if the mainline app is missing something you want, either develop a plugin, fork the source code and risk missing security updates from there on out, or just forget about it.
 
 For a while, VLC didn't even *have a dark theme!* The following eyesore is what you were greeted with when you wanted some tunes to wake you up at 6AM before the sun crossed the horizon… or at 8PM at night, when you need some slower tunes to please your sleepy brain before bed. 
-![VLC in its default skin. Also the only skin if you're on Windows. Screenshot taken from a Windows 10 VM, since I need to use a branch of VLC on Linux that makes the dark theme default, ironically enough.](../assets/img/b/music-nerd-talk/vlcflashbang.png "VLC in its default skin. Also the only skin if you're on Windows. Screenshot taken from a Windows 10 VM, since I need to use a branch of VLC on Linux that makes the dark theme default, ironically enough.") 
+<img src="/assets/img/b/music-nerd-talk/vlcflashbang.png" alt="VLC in its default skin. Also the only skin if you're on Windows. Screenshot taken from a Windows 10 VM, since I need to use a branch of VLC on Linux that makes the dark theme default, ironically enough.">
 *A moment of silence for those who just scrolled past super quickly and got flashbanged by this image. May their eyes rest in peace.* 
 
 Thankfully, with the release of 3.0.22 they fixed this and now you can go into the options to force a darker theme that won't destroy your corneas at three in the morning. It only took them *[eighteen years](https://github.com/pratikpatel8982/vlc-dark)* to finish the feature request, a world record for them! It's not like you can take advantage of the Qt skinning engine you're already using to implement a native dark theme, right? … right?
 
-![VLC's Advanced Preferences, showing where the dark mode checkbox is.](../assets/img/b/music-nerd-talk/vlc18years.png "VLC's Advanced Preferences, showing where the dark mode checkbox is.")
+<img src=/assets/img/b/music-nerd-talk/vlc18years.png alt="VLC's Advanced Preferences, showing where the dark mode checkbox is.">
 *It took them EIGHTEEN YEARS to figure out how to tell Qt to put dark colors in front of a light colorset???*
 
 I'm sure you can feel the resentment coming through the above edited screenshot.
