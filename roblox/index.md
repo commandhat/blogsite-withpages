@@ -90,12 +90,12 @@ Read Review
 </td>
 
 <td>
-{{ post.date | date: "%B %-d, %Y" }}
+Reviewed {{ post.date | date: "%B %-d, %Y" }}
 </td>
 
 <td>
 {% if post.version %}
-{{ post.version }}
+Version: {{ post.version }}
 {% endif %}
 </td>
 </tr>
