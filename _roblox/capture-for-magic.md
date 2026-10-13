@@ -4,12 +4,12 @@ title: Capture For Magic
 date: 2026-10-01
 
 game_title: Capture For Magic
-game_thumbnail: /assets/images/captureformagic.webp
+game_thumbnail: /assets/img/r/captureformagic.webp
 game_description: >
- Capture the Colors! 🎨 
+ Capture the Colors! 🎨
  Use your powerful Magic Spells! 🪄🔥
  Defeat your friends with Ultimate Magic! ⭐
-
+review_description: A game that somehow manages to be addictive if you can get past all the resons to not play it. Fun for a while, but you have to WANT to keep playing.
 gamescore: 13
 viewscore: 8
 techscore: 9
