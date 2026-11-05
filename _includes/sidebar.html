@@ -8,11 +8,11 @@
 <h2>
 {% if current_section == "blog" %}
 <a href="{{ '/blog/feed.xml' | relative_url }}">
-<img src="{{ '/assets/images/rss.png' | relative_url }}" alt="RSS">
+<img src="{{ '/assets/img/rss.png' | relative_url }}" alt="RSS">
 </a>
 {% elsif current_section == "roblox" %}
 <a href="{{ '/roblox/feed.xml' | relative_url }}">
-<img src="{{ '/assets/images/rss.png' | relative_url }}" alt="RSS">
+<img src="{{ '/assets/img/rss.png' | relative_url }}" alt="RSS">
 </a>
 {% endif %}
 {{ section_data.title }}
