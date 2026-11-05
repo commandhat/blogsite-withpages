@@ -25,7 +25,7 @@ body {
 }
 
 .site-header {
-    flex: 0 0 16px;
+    flex: 0 0 40px;
     box-sizing: border-box;
     background-color: #2b1443;
     color: #cac5cf;
@@ -257,8 +257,8 @@ blockquote {
     }
 
     .site-header {
-        flex: 0 0 40px;
-        gap: 8px 16px;
+        flex: 0 0 auto;
+        row-gap: 8px;
     }
 
     .sidebar {
